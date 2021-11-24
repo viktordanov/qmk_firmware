@@ -1,0 +1,5 @@
+SUBS(massiveCraft_tpHome,   "t"SS_DELAY(50)"/tp home"SS_TAP(X_ENTER),    KC_M, KC_T, KC_H)
+SUBS(massiveCraft_tpMarket,   "t"SS_DELAY(50)"/tp market"SS_TAP(X_ENTER),    KC_M, KC_T)
+SUBS(massiveCraft_editShopPrices,   "t"SS_DELAY(50)"/lock edit ShopPrices ",    KC_M, KC_S, KC_P)
+
+COMB(SWITCH_TO_PLOVER,   TG(3),  KC_LCTL, KC_LGUI, KC_LALT)
